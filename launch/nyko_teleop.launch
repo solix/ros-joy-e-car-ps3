@@ -6,25 +6,25 @@
    -->
 
   <node pkg="jetsoncar_teleop" type="jetsoncar_teleop_joy" name="jetsoncar_teleop_joystick">
-    <param name="scale_angular" value="1.0"/>
+    <param name="scale_angular" value="1"/>
     <param name="scale_linear" value="0.5"/>
     <!-- 'Y' button is the deadman switch 
          Button value = 4 
     -->
-    <param name="axis_deadman" value="4"/>
+    <param name="axis_deadman" value="11"/>
     <!-- Throttle is the right trigger 
          Axis value = 4
     -->
-    <param name="axis_linear" value="4"/>
+    <param name="axis_linear" value="3"/>
     <param name="axis_angular" value="0"/>
 
-    <param name="button_a" value="0"/>
-    <param name="button_b" value="1"/>
-    <param name="button_x" value="3"/>
+    <param name="button_a" value="14"/>
+    <param name="button_b" value="13"/>
+    <param name="button_x" value="15"/>
     <!-- button y is mapped to the deadman -->
     <!-- buttons left and right are located above the triggers -->
-    <param name="button_left" value="6"/>
-    <param name="button_right" value="7"/>
+    <param name="button_left" value="7"/>
+    <param name="button_right" value="5"/>
 
   </node>
 
